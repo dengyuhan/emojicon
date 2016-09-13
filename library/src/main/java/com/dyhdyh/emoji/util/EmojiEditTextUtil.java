@@ -1,13 +1,15 @@
-package io.github.rockerhieu.emojicon.emoji;
+package com.dyhdyh.emoji.util;
 
 import android.view.KeyEvent;
 import android.widget.EditText;
+
+import io.github.rockerhieu.emojicon.emoji.Emojicon;
 
 /**
  * author  dengyuhan
  * created 2016/9/13 16:01
  */
-    public class EmojiEditTextUtil {
+public class EmojiEditTextUtil {
 
     public static void input(EditText editText, Emojicon emojicon) {
         if (editText == null || emojicon == null) {
@@ -23,7 +25,7 @@ import android.widget.EditText;
         }
     }
 
-    public static void backspace(EditText editText){
+    public static void backspace(EditText editText) {
         KeyEvent event = new KeyEvent(0, 0, 0, KeyEvent.KEYCODE_DEL, 0, 0, 0, 0, KeyEvent.KEYCODE_ENDCALL);
         editText.dispatchKeyEvent(event);
     }
