@@ -47,5 +47,5 @@
     <FrameLayout
         android:id="@+id/emojicons"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="@dimen/emoji_content_height" />
 </LinearLayout>

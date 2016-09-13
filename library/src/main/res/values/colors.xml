@@ -15,6 +15,9 @@
   -->
 
 <resources>
-    <color name="horizontal_divider">#8f8f8f</color>
-    <color name="horizontal_vertical">#8f8f8f</color>
+    <color name="background_emoji_tab_n">#F1F1F1</color>
+    <color name="background_emoji_tab_p">#CDCDCD</color>
+    <color name="background_emoji_content">#F4F4F4</color>
+    <color name="horizontal_vertical">#E9E7E7</color>
+    <color name="horizontal_divider">#E9E7E7</color>
 </resources>

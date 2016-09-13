@@ -49,7 +49,7 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
     private EmojiconRecentsManager mRecentsManager;
     private boolean mUseSystemDefault = false;
 
-    private static final String USE_SYSTEM_DEFAULT_KEY = "useSystemDefaults";
+    protected static final String USE_SYSTEM_DEFAULT_KEY = "useSystemDefaults";
 
     public static EmojiconsFragment newInstance(boolean useSystemDefault) {
         EmojiconsFragment fragment = new EmojiconsFragment();

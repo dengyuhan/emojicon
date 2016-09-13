@@ -21,6 +21,10 @@
     android:cacheColorHint="@android:color/transparent"
     android:columnWidth="40dip"
     android:horizontalSpacing="0dip"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
     android:numColumns="auto_fit"
     android:scrollbars="vertical"
     android:verticalSpacing="0dip" />
