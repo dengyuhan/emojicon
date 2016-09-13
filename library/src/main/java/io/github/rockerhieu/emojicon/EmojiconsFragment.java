@@ -59,9 +59,13 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
         return fragment;
     }
 
+    protected int getLayoutId(){
+        return R.layout.emojicons;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.emojicons, container, false);
+        View view = inflater.inflate(getLayoutId(), container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.emojis_pager);
         mViewPager.setOnPageChangeListener(this);
 
