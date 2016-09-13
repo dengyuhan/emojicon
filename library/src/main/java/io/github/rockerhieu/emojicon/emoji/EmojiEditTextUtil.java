@@ -7,7 +7,7 @@ import android.widget.EditText;
  * author  dengyuhan
  * created 2016/9/13 16:01
  */
-public class EmojiEditTextUtil {
+    public class EmojiEditTextUtil {
 
     public static void input(EditText editText, Emojicon emojicon) {
         if (editText == null || emojicon == null) {
