@@ -21,14 +21,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
-import io.github.rockerhieu.emojicon.emoji.Emojicon;
-
 import java.util.List;
+
+import io.github.rockerhieu.emojicon.emoji.Emojicon;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)
  */
-class EmojiAdapter extends ArrayAdapter<Emojicon> {
+public class EmojiAdapter extends ArrayAdapter<Emojicon> {
     private boolean mUseSystemDefault = false;
 
     public EmojiAdapter(Context context, List<Emojicon> data) {
