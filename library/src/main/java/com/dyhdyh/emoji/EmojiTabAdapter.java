@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 
 import java.util.List;
 
+import io.github.rockerhieu.emojicon.R;
 import io.github.rockerhieu.emojicon.emoji.Emojicon;
 
 /**
@@ -15,7 +16,7 @@ import io.github.rockerhieu.emojicon.emoji.Emojicon;
  */
 public class EmojiTabAdapter extends ArrayAdapter<Emojicon> {
     public EmojiTabAdapter(Context context,List<Emojicon> objects) {
-        super(context, resource, objects);
+        super(context, R.layout.item_emoji_tab, objects);
     }
 
     @Override
